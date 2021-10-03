@@ -17,7 +17,6 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -28,52 +27,64 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .light-box {
   width: 90px;
   height: 90px;
 }
 
-.box1{
-  background-color: aliceblue;
+.up {
+  animation: uplight 18s infinite alternate;
 }
 
-.box2{
-  background-color: aliceblue;
+.mid {
+  animation: midlight 30s infinite alternate;
 }
 
-.box3{
-  background-color: aliceblue;
+.down {
+  animation: downlight 10s infinite alternate;
 }
 
-.box4{
-  background-color: aliceblue;
+@keyframes uplight{
+  from{
+    opacity: 1;
+  }
+  33%{
+    opacity: 1;
+  }
+  66%{
+    opacity: 0;
+  }
+  to{
+    opacity: 0;
+  }
 }
 
-.box5{
-  background-color: aliceblue;
+@keyframes midlight{
+  from{
+    opacity: 1;
+  }
+  33%{
+    opacity: 1;
+  }
+  66%{
+    opacity: 0;
+  }
+  to{
+    opacity: 0;
+  }
 }
 
-.box6{
-  background-color: aliceblue;
-}
-
-.box7{
-  background-color: aliceblue;
-}
-
-.box8{
-  background-color: aliceblue;
-}
-
-.box9{
-  background-color: aliceblue;
+@keyframes downlight{
+  from{
+    opacity: 1;
+  }
+  33%{
+    opacity: 1;
+  }
+  66%{
+    opacity: 0;
+  }
+  to{
+    opacity: 0;
+  }
 }

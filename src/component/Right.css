@@ -1,0 +1,20 @@
+.box7{
+  background-color: rgb(31, 11, 214);
+}
+
+.box8{
+  background-color: rgb(76, 121, 95);
+}
+
+.box9{
+  background-color: rgb(95, 127, 155);
+}
+
+@keyframes light{
+  from {
+    opacity: 1;
+  }
+  to {    
+    opacity: 0;
+  }
+}
