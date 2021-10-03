@@ -5,18 +5,16 @@ import Mid from './component/Mid'
 import Right from './component/Right'
 import soundtrack from './Nightingale.mp3'
 
-function App() {
-  
-    
+function App() {  
   return (
     <>
     <div className="App">
-      <header className="App-header">
-        <audio src={soundtrack} type='audio/mpeg' autoPlay controls/>
+      <header className="App-header">        
         <Left/>
         <Mid/>
-        <Right/>
+        <Right/>       
       </header>
+      <audio src={soundtrack} type='audio/mpeg' autoPlay controls/>
     </div>
     </>
   );
