@@ -1,11 +1,23 @@
 .box1{
-    background-color: aliceblue;
-  }
+  background-color: aliceblue;
+  animation: light 3s infinite ease-in-out alternate
+}
   
-  .box2{
-    background-color: rgb(0, 255, 0);
-  }
+.box2{
+  background-color: rgb(0, 255, 0);
+  animation: light 2s infinite ease-in-out alternate
+}
   
-  .box3{
-    background-color: rgb(245, 8, 8);
+.box3{
+  background-color: rgb(245, 8, 8);
+  animation: light 3s infinite ease-in-out alternate
+}
+
+@keyframes light{
+  from {
+    opacity: 1;
   }
+  to {  
+    opacity: 0;
+  }
+}

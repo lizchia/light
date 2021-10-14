@@ -1,13 +1,16 @@
 .box7{
   background-color: rgb(31, 11, 214);
+  animation: light 9s infinite ease-in-out alternate
 }
 
 .box8{
   background-color: rgb(76, 121, 95);
+  animation: light 10s infinite ease-in-out alternate
 }
 
 .box9{
   background-color: rgb(95, 127, 155);
+  animation: light 11s infinite ease-in-out alternate
 }
 
 @keyframes light{
